@@ -1,0 +1,13 @@
+# Core PyTorch and Computer Vision libraries
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Testing
+pytest>=7.0.0
+
+# Lưu ý về cài đặt PyTorch hỗ trợ GPU (CUDA):
+# Lệnh 'pip install torch torchvision' thông thường sẽ cài bản CPU trên Windows.
+# Nếu bạn có GPU NVIDIA và muốn chạy CUDA, hãy truy cập công cụ chọn lệnh chính thức:
+# https://pytorch.org/get-started/locally/
+# Ví dụ cài đặt PyTorch với CUDA 12.1 hoặc 12.4:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
